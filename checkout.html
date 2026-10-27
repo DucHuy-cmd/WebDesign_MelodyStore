@@ -37,8 +37,8 @@
         </div>
         <div class="humberger__menu__cart">
             <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>2</span></a></li>
-                <li><a href="shoping-cart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
             </ul>
             <div class="header__cart__price">item: <span>$2,217.00</span></div>
         </div>
@@ -57,21 +57,21 @@
             </div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">
-                <ul>
-                    <li ><a href="./index.html">Home</a></li>
-                    <li ><a href="./shop-grid.html">Shop</a></li>
-                    <li class="active"><a href="#">Pages</a>
-                        <ul class="header__menu__dropdown">
-                            <li><a href="./shop-details.html">Shop Details</a></li>
-                            <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                            <li><a href="./checkout.html">Check Out</a></li>
-                            <li><a href="./blog-details.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li ><a href="./blog.html">Blog</a></li>
-                    <li ><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./shop-grid.html">Shop</a></li>
+                <li class="active"><a href="#">Pages</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./shop-details.html">Shop Details</a></li>
+                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                        <li><a href="./checkout.html">Check Out</a></li>
+                        <li><a href="./blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="header__top__right__social">
             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -136,8 +136,8 @@
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li ><a href="./index.html">Home</a></li>
-                            <li ><a href="./shop-grid.html">Shop</a></li>
+                            <li><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="./shop-grid.html">Shop</a></li>
                             <li class="active"><a href="#">Pages</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./shop-details.html">Shop Details</a></li>
@@ -146,16 +146,16 @@
                                     <li><a href="./blog-details.html">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li ><a href="./blog.html">Blog</a></li>
-                            <li ><a href="./contact.html">Contact</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="col-lg-3">
                     <div class="header__cart">
                         <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>2</span></a></li>
-                            <li><a href="shoping-cart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
                         </ul>
                         <div class="header__cart__price">item: <span>$2,217.00</span></div>
                     </div>
@@ -176,7 +176,7 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All Categories</span>
+                            <span>All departments</span>
                         </div>
                         <ul>
                             <li><a href="shop-grid.html">Acoustic Guitars</a></li>
@@ -329,41 +329,43 @@
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="checkout__order">
-                            <h4>Your Musical Gear Order</h4>
-                            <div class="checkout__order__products">Products <span>Total</span></div>
-                            <ul>
-                                <li>Taylor 214ce Deluxe Guitar <span>$1,199.00</span></li>
-                                <li>Fender Player Stratocaster <span>$849.00</span></li>
-                                <li>Audio-Technica ATH-M50x <span>$169.00</span></li>
-                            </ul>
-                            <div class="checkout__order__subtotal">Subtotal <span>$2,217.00</span></div>
-                            <div class="checkout__order__subtotal">Express Shipping <span>FREE</span></div>
-                            <div class="checkout__order__total">Total <span>$2,217.00</span></div>
-                            <div class="checkout__input__checkbox">
-                                <label for="acc-check">
-                                    Check Payment / Bank Wire Transfer
-                                    <input type="checkbox" id="acc-check">
-                                    <span class="checkmark"></span>
-                                </label>
+                                <h4>Your Order</h4>
+                                <div class="checkout__order__products">Products <span>Total</span></div>
+                                <ul>
+                                    <li>Taylor 214ce Deluxe <span>$1,199.00</span></li>
+                                    <li>Fender Player Stratocaster <span>$849.00</span></li>
+                                    <li>Audio-Technica ATH-M50x <span>$169.00</span></li>
+                                </ul>
+                                <div class="checkout__order__subtotal">Subtotal <span>$2,217.00</span></div>
+                                <div class="checkout__order__total">Total <span>$2,217.00</span></div>
+                                <div class="checkout__input__checkbox">
+                                    <label for="acc-or">
+                                        Create an account?
+                                        <input type="checkbox" id="acc-or">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua.</p>
+                                <div class="checkout__input__checkbox">
+                                    <label for="payment">
+                                        Check Payment
+                                        <input type="checkbox" id="payment">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="checkout__input__checkbox">
+                                    <label for="paypal">
+                                        Paypal
+                                        <input type="checkbox" id="paypal">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <button type="submit" class="site-btn">PLACE ORDER</button>
                             </div>
-                            <div class="checkout__input__checkbox">
-                                <label for="payment">
-                                    Direct Credit Card (Visa / MasterCard)
-                                    <input type="checkbox" id="payment">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                            <div class="checkout__input__checkbox">
-                                <label for="paypal">
-                                    PayPal Express Checkout
-                                    <input type="checkbox" id="paypal" checked>
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                            <button type="submit" class="site-btn">PLACE ORDER NOW</button>
                         </div>
-                        </div>
-                    </form>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -375,13 +377,15 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
-<div class="footer__about__logo"><a href="./index.html"><img src="Images/logo.png" alt="Melody Store"></a></div>
-<h6>Melody Music Store</h6>
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="Images/logo.png" alt=""></a>
+                        </div>
                         <ul>
-                            <li>Address: 79 D3 Street, Binh Thanh District, Ho Chi Minh City</li>
+                            <li>Address: 60-49 Road 11378 New York</li>
                             <li>Phone: +1 800 888 6789</li>
                             <li>Email: support@melodystore.com</li>
-                        </ul></div>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
                     <div class="footer__widget">
@@ -424,9 +428,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p>
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Melody Store - Web Design UTC2 by <a href="https://github.com/DucHuy-cmd" target="_blank">DucHuy-cmd</a>
-  </p></div>
+                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Melody Store - WebDesign UTC2 by <a href="https://github.com/DucHuy-cmd" target="_blank">DucHuy-cmd</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                         <div class="footer__copyright__payment"><img src="Images/payment-item.png" alt=""></div>
                     </div>
                 </div>
