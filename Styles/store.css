@@ -25,7 +25,7 @@
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    border-left: 5px solid #7fad39;
+    border-left: 5px solid #d97706;
     padding: 14px 18px;
     display: flex;
     align-items: flex-start;
@@ -54,7 +54,7 @@
 
 .melody-toast__icon {
     font-size: 20px;
-    color: #7fad39;
+    color: #d97706;
     margin-top: 2px;
     flex-shrink: 0;
 }
@@ -161,8 +161,8 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: #eef7e6;
-    color: #7fad39;
+    background: #fef3c7;
+    color: #d97706;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -203,7 +203,7 @@
 .melody-modal__details div:last-child {
     margin-bottom: 0;
     font-weight: 700;
-    color: #7fad39;
+    color: #d97706;
     border-top: 1px solid #e0e0e0;
     padding-top: 8px;
 }
@@ -211,7 +211,7 @@
 .melody-modal__btn {
     display: inline-block;
     padding: 12px 32px;
-    background: #7fad39;
+    background: #d97706;
     color: #ffffff;
     font-weight: 700;
     letter-spacing: 1px;
@@ -224,7 +224,7 @@
 }
 
 .melody-modal__btn:hover {
-    background: #68922c;
+    background: #b45309;
     color: #ffffff;
 }
 

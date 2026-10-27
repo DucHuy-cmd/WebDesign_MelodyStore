@@ -274,7 +274,7 @@
                         ${itemsHtml}
                         <div style="margin-top: 8px;">
                             <span>Total Paid:</span>
-                            <strong style="color: #7fad39; font-size: 16px;">$${order.total.toFixed(2)}</strong>
+                            <strong style="color: #d97706; font-size: 16px;">$${order.total.toFixed(2)}</strong>
                         </div>
                     </div>
                     <a href="index.html" class="melody-modal__btn">CONTINUE SHOPPING</a>
@@ -509,7 +509,7 @@
             if (checkoutUl) {
                 let discountHtml = '';
                 if (totals.discountPercent > 0) {
-                    discountHtml = `<li style="color: #7fad39;">Coupon Discount (${totals.discountPercent}%) <span>-$${totals.discountAmount.toFixed(2)}</span></li>`;
+                    discountHtml = `<li style="color: #d97706;">Coupon Discount (${totals.discountPercent}%) <span>-$${totals.discountAmount.toFixed(2)}</span></li>`;
                 }
                 checkoutUl.innerHTML = `
                     <li>Subtotal <span>$${totals.subtotal.toLocaleString('en-US', {minimumFractionDigits: 2})}</span></li>
