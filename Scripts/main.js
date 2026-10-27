@@ -14,9 +14,9 @@
     /*------------------
         Preloader
     --------------------*/
-    $(window).on('load', function () {
+    function handlePreloaderAndMixer() {
         $(".loader").fadeOut();
-        $("#preloder").delay(200).fadeOut("slow");
+        $("#preloder").delay(100).fadeOut("fast");
 
         /*------------------
             Gallery filter
@@ -25,11 +25,19 @@
             $('.featured__controls li').removeClass('active');
             $(this).addClass('active');
         });
-        if ($('.featured__filter').length > 0) {
+        if ($('.featured__filter').length > 0 && !window.mixerInitialized) {
+            window.mixerInitialized = true;
             var containerEl = document.querySelector('.featured__filter');
             var mixer = mixitup(containerEl);
         }
-    });
+    }
+
+    if (document.readyState === 'complete') {
+        setTimeout(handlePreloaderAndMixer, 50);
+    } else {
+        $(window).on('load', handlePreloaderAndMixer);
+        setTimeout(handlePreloaderAndMixer, 1200);
+    }
 
     /*------------------
         Background Set
