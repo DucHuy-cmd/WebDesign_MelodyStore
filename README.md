@@ -5,7 +5,9 @@
 > **Trường:** Trường Đại học Giao thông Vận tải - Phân hiệu tại TP. Hồ Chí Minh (UTC2)  
 > **Sinh viên thực hiện:** Lê Võ Đức Huy - MSSV: 6651071098  
 > **Live Demo (GitHub Pages):** [https://duchuy-cmd.github.io/WebDesign_MelodyStore/](https://duchuy-cmd.github.io/WebDesign_MelodyStore/)  
-> **GitHub Repository:** [https://github.com/DucHuy-cmd/WebDesign_MelodyStore](https://github.com/DucHuy-cmd/WebDesign_MelodyStore)
+> **Backup Live Demo (Vercel):** [https://melodystore-flax.vercel.app/](https://melodystore-flax.vercel.app/)  
+> **GitHub Repository:** [https://github.com/DucHuy-cmd/WebDesign_MelodyStore](https://github.com/DucHuy-cmd/WebDesign_MelodyStore)  
+> **Video Demo Review Website:** [Xem Video Review (demo_review.mp4)](https://github.com/DucHuy-cmd/WebDesign_MelodyStore/blob/main/Videos/demo_review.mp4)
 
 ---
 
@@ -66,8 +68,9 @@ WebDesign_MelodyStore/
 │   ├── acoustic-guitar-sample.mp3
 │   └── piano-melody-sample.mp3
 │
-├── Videos/                 # File video review nhạc cụ (.mp4)
-│   └── guitar-demo.mp4
+├── Videos/                 # File video review nhạc cụ & video demo (.mp4)
+│   ├── guitar-demo.mp4     # Video demo nhạc cụ mẫu tại trang shop-details
+│   └── demo_review.mp4     # Video quay tự động review toàn bộ tính năng website
 │
 └── fonts/                  # Phông chữ FontAwesome & ElegantIcons
 ```
