@@ -7,7 +7,7 @@
 > **Live Demo (GitHub Pages):** [https://duchuy-cmd.github.io/WebDesign_MelodyStore/](https://duchuy-cmd.github.io/WebDesign_MelodyStore/)  
 > **Backup Live Demo (Vercel):** [https://melodystore-flax.vercel.app/](https://melodystore-flax.vercel.app/)  
 > **GitHub Repository:** [https://github.com/DucHuy-cmd/WebDesign_MelodyStore](https://github.com/DucHuy-cmd/WebDesign_MelodyStore)  
-> **Video Demo Review Website:** [Xem Video Review (demo_review.mp4)](https://github.com/DucHuy-cmd/WebDesign_MelodyStore/blob/main/Videos/demo_review.mp4)
+> **Video Demo Review Website:** [Xem Video Review (video-demo.mp4)](https://github.com/DucHuy-cmd/WebDesign_MelodyStore/blob/main/Videos/video-demo.mp4)
 
 ---
 
@@ -70,7 +70,7 @@ WebDesign_MelodyStore/
 │
 ├── Videos/                 # File video review nhạc cụ & video demo (.mp4)
 │   ├── guitar-demo.mp4     # Video demo nhạc cụ mẫu tại trang shop-details
-│   └── demo_review.mp4     # Video quay tự động review toàn bộ tính năng website
+│   └── video-demo.mp4      # Video quay demo và review các tính năng của website
 │
 └── fonts/                  # Phông chữ FontAwesome & ElegantIcons
 ```
